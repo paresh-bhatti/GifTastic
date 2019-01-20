@@ -44,7 +44,7 @@ $('#addButton').on('click', function () {
 function displayGifs() {
 
     var cocktail = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + cocktail + "&api_key=DqlYmNkN90K2wrMyd7HS406fNfcNJP3E&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + cocktail + "&api_key=DqlYmNkN90K2wrMyd7HS406fNfcNJP3E&limit=10";
 
     $.ajax({
         url: queryURL,
