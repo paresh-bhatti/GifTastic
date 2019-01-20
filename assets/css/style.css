@@ -1,0 +1,47 @@
+
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    width: auto;
+}
+
+.btn-primary {
+    padding: 10px;
+    margin: 10px;
+}
+
+#addButton {
+color: gold;
+}
+
+#gif-form {
+    float: right;
+    margin-left: 50%;
+}
+
+
+#container {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.gifContainer {
+    width: 700px;
+    margin: 0px;
+    display: grid;
+}
+
+.gif {
+    
+
+    border: 10px;
+    padding: 10px;
+}
+
+p {
+    margin-left: 10px;
+}
